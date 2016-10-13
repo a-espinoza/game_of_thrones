@@ -1,2 +1,5 @@
-class House < ApplicationRecord
+class House < ActiveRecord::Base
+  belongs_to :character
+
+
 end
